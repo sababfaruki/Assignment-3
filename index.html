@@ -399,15 +399,15 @@
             </div>
           </div>
           <!-- input section -->
-         <div class="flex flex-col gap-[24px] mt-6"> 
+         <div class="flex flex-col gap-[24px] mt-6 justify-evenly"> 
           <div>
             <div class="flex justify-center flex-col lg:flex-row gap-6">
               <div>
-                <h3 class="text-[20px] font-semibold">Your Name</h3>
+                <h3 class="text-[20px] font-semibold mb-3 lg:mb-5">Your Name</h3>
                 <input type="text" placeholder="Enter your full name" class="input input-bordered input-md w-full lg:w-[324px]  bg-[#13131809] border-[0px]" />
               </div>
               <div>
-                <h3 class="text-[20px] font-semibold">Your Email</h3>
+                <h3 class="text-[20px] font-semibold mb-3 lg:mb-5">Your Email</h3>
                 <input type="text" placeholder="Enter your full email" class="input input-bordered input-md w-full lg:w-[324px] bg-[#13131809] border-[0px]" />
               </div>
             </div>
@@ -415,17 +415,17 @@
           <div class="flex flex-col">
             <div class="flex gap-6 justify-center flex-col lg:flex-row">
               <div class="">
-                <h3 class="text-[20px] font-semibold">Your Subject</h3>
+                <h3 class="text-[20px] font-semibold mb-3 lg:mb-5">Your Subject</h3>
                 <input type="text" placeholder="Enter your full subject" class="input input-bordered input-md w-full lg:w-[324px]  bg-[#13131809] border-[0px]" />
               </div>
               <div>
-                <h3 class="text-[20px] font-semibold">Phone number</h3>
+                <h3 class="text-[20px] font-semibold mb-3 lg:mb-5">Phone number</h3>
                 <input type="text" placeholder="Enter your phone number" class="input input-bordered input-md w-full lg:w-[324px]  bg-[#13131809] border-[0px]" />
               </div>
             </div>
             <div>
               <div class=" flex flex-col mt-6">
-                <h3 class="text-[20px] font-semibold">Message</h3>
+                <h3 class="text-[20px] font-semibold mb-3 lg:mb-5">Message</h3>
               </div>
               <textarea class="textarea textarea-bordered w-full lg:h-96 lg:w-[672px] bg-[#13131809] border-[0px]" placeholder="Write your message"></textarea>
               </div>
@@ -434,9 +434,64 @@
         </div>
       </div>
       </section>
+      <!-- social media section -->
+      <section class="rounded-xl bg-[#13131815] w-[335px] h-[140px] lg:w-[1170px] lg:h-[150px] flex flex-col justify-center items-center">
+        <div class="space-y-6">
+          <header class="text-center text-2xl font-extrabold">Social Media</header> 
+          <div class="flex gap-6">
+            <a><img class="w-6" src="Images/square-x-twitter.svg" alt=""></a>
+            <a><img class="w-6" src="Images/facebook.svg" alt=""></a>
+            <a><img class="w-6" src="Images/instagram.svg" alt=""></a>
+            <a><img class="w-6" src="Images/github.svg" alt=""></a>
+          </div>
+        </div>
+      </section>
     </main>
-    <footer>
-
+    <!-- footer section -->
+    <footer class="mt-10 lg:mt-24 footer flex flex-col lg:flex-row justify-evenly p-10 bg-[#131318] text-base-content items-center">
+      <div class="mx-3 space-y-4 flex flex-col justify-center items-center lg:items-start">
+        <div>
+        <h3 class="lg:text-left font-extrabold text-white text-[36px] text-center">Get In Touch</h3>
+        <p class="lg:text-left text-center text-[16px] mx-auto lg:mx-auto text-[#fff] lg:w-[700px] mt-5">Connect with us effortlessly. Reach out for inquiries, collaboration, or support. Your satisfaction matters. We're here to assist and engage.</p>
+      </div>
+        <div class="flex items-center gap-2">
+          <span style="color: #ff4240;" class="material-symbols-outlined">
+            mail
+            </span>
+            <h4 class="text-[#ffffffda]">hockeys@support.com</h4>
+        </div>
+        <div class="flex items-center gap-2">
+          <span style="color: #ff4240;" class="material-symbols-outlined">
+            call
+            </span>
+            <h4 class="text-[#ffffffda]">(+62) 123-321-543</h4>
+        </div>
+      </div> 
+      <div class="flex gap-10 lg:gap-36">
+      <nav class="flex flex-col space-y-4">
+        <header class="text-white font-semibold text-xl mb-5">Company</header> 
+        <a class="text-[#ffffff8c] text-xs">About us</a>
+        <a class="text-[#ffffff8c] text-xs">Leadership</a>
+        <a class="text-[#ffffff8c] text-xs">Carriers</a>
+        <a class="text-[#ffffff8c] text-xs">News and article</a>
+        <a class="text-[#ffffff8c] text-xs">Legal Notice</a>
+      </nav> 
+      <nav class="flex flex-col space-y-4">
+        <header class="text-white font-semibold text-xl mb-5">Support</header> 
+        <a class="text-[#ffffff8c] text-xs">Help Center</a>
+        <a class="text-[#ffffff8c] text-xs">FAQ</a>
+        <a class="text-[#ffffff8c] text-xs">Ticket Support</a>
+        <a class="text-[#ffffff8c] text-xs">Contact Us</a>
+      </nav>  
+    </div>
+    <nav class="flex flex-col space-y-4">
+      <header class="text-white font-semibold text-xl">Services</header> 
+      <a class="text-[#ffffff8c] text-xs">Academy</a>
+      <a class="text-[#ffffff8c] text-xs">Group Lesson</a>
+      <a class="text-[#ffffff8c] text-xs">Private Lesson</a>
+      <a class="text-[#ffffff8c] text-xs">Hockey for kids</a>
+      <a class="text-[#ffffff8c] text-xs">Hockey for adults</a>
+    </nav> 
     </footer>
 </body>
 </html>
